@@ -3,7 +3,7 @@ version: "3.9"
 services:
 
   wordpress:
-    container_name: w1.doo.ovh 
+    container_name: devsop2 
     image: devsops:2
     ports:
       - 220:222
@@ -16,7 +16,7 @@ services:
       - proxy
 
 volumes:
-  devops1_db: {}
+  devops2_db: {}
 
 networks:
   proxy:
